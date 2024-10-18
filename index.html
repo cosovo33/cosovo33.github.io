@@ -3,91 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zaouga Amine - Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Zaouga Amine - CV</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
-            background-color: #f4f4f4;
+            margin: 1in;
+            color: #000;
         }
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-            background: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        h1, h2 {
+            color: #0066cc;
         }
         h1 {
             font-size: 24px;
-            color: #0066cc;
         }
         h2 {
             font-size: 20px;
-            color: #333;
         }
-        p, li {
-            font-size: 14px;
-            color: #555;
+        h3 {
+            font-size: 18px;
         }
-        ul {
-            list-style-type: disc;
-            margin-left: 20px;
+        .contact {
+            text-align: center;
         }
-        .contact-info a {
-            color: #0066cc;
+        .contact a {
+            color: blue;
             text-decoration: none;
         }
         .section {
             margin-bottom: 20px;
         }
-        .section-title {
-            font-weight: bold;
-            font-size: 18px;
-            color: #0066cc;
-            margin-bottom: 10px;
+        .subsection {
+            margin-top: 10px;
+        }
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        ul li {
+            margin-bottom: 5px;
+        }
+        .skills-list, .languages-list {
+            display: inline-block;
+            width: 48%;
+            vertical-align: top;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <h1>Zaouga Amine</h1>
-            <p class="contact-info">
-                <a href="mailto:zaougaamine00@gmail.com">zaougaamine00@gmail.com</a> | +216 2753 7585 | 
-                <a href="https://www.linkedin.com/in/amine-zaouga-575120177/">LinkedIn</a> | 
-                <a href="https://github.com/cosovo33">GitHub</a><br>
-                7034, Cap Zebib, Bizerte, Tunisia
-            </p>
+    <div class="contact">
+        <h1>Zaouga Amine</h1>
+        <p>
+            <a href="mailto:zaougaamine00@gmail.com">zaougaamine00@gmail.com</a> |
+            +216 2753 7585 |
+            <a href="https://www.linkedin.com/in/amine-zaouga-575120177/">LinkedIn</a> |
+            <a href="https://github.com/cosovo33">GitHub</a><br>
+            7034, Cap Zebib, Bizerte, Tunisia
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>Profile</h2>
+        <p>I am a Software Engineering graduate from SESAME University (September 2024), with solid experience in JavaScript, Java, Python, and PHP. I have developed robust skills in both frontend and backend development through various projects and internships. I am seeking new opportunities as a MERN developer to contribute to innovative projects with scalable and high-performance solutions.</p>
+    </div>
+
+    <div class="section">
+        <h2>Education</h2>
+        <div class="subsection">
+            <h3>SESAME University, Tunisia</h3>
+            <p><em>Master's in Software Engineering</em> (2021 -- 2024)</p>
         </div>
-
-        <div class="section">
-            <div class="section-title">Profile</div>
-            <p>I am a Software Engineering graduate from SESAME University (September 2024), with solid experience in JavaScript, Java, Python, and PHP. I have developed robust skills in both frontend and backend development through various projects and internships. I am seeking new opportunities as a MERN developer to contribute to innovative projects with scalable and high-performance solutions.</p>
+        <div class="subsection">
+            <h3>Higher Institute of Computer Science of Mahdia ISIMA, Tunisia</h3>
+            <p><em>Bachelor's degree in Computer Science</em> (2018 -- 2021)</p>
         </div>
+    </div>
 
-        <div class="section">
-            <div class="section-title">Education</div>
-            <p><strong>SESAME University, Tunisia</strong><br>
-            <em>Master's in Software Engineering</em> &ndash; 2021 -- 2024</p>
-
-            <p><strong>Higher Institute of Computer Science of Mahdia ISIMA, Tunisia</strong><br>
-            <em>Bachelor's degree in Computer Science</em> &ndash; 2018 -- 2021</p>
-        </div>
-
-        <div class="section">
-            <div class="section-title">Skills</div>
+    <div class="section">
+        <h2>Skills</h2>
+        <div class="skills-list">
             <p><strong>Programming Languages:</strong> JavaScript, Java, Python, PHP</p>
             <p><strong>Web Development:</strong> MERN (MongoDB, Express, React, Node.js), Django, Symfony, RESTful APIs</p>
             <p><strong>Technologies and Tools:</strong> Git, Docker, Postman, Truffle, Web3, MySQL, PostgreSQL, Material-UI, Ant Design, Bootstrap</p>
+        </div>
+        <div class="skills-list">
             <p><strong>Other Skills:</strong> Smart Contract Development, Cryptography, User Interface Design, Project Management, Agile Methodologies</p>
         </div>
+    </div>
 
-        <div class="section">
-            <div class="section-title">Professional Experience</div>
-            <h2>MERN Developer | Final Year Project</h2>
+    <div class="section">
+        <h2>Professional Experience</h2>
+        <div class="subsection">
+            <h3>MERN Developer | Final Year Project</h3>
             <p><em>28/02/24 -- 29/06/24 | Web Application for PhotoBooth Management</em></p>
             <ul>
                 <li>Created a web application to manage PhotoBooths using ReactJS, Express, MongoDB, and Ant Design for UI components.</li>
@@ -96,28 +102,63 @@
                 <li>Developed dynamic and responsive user interfaces to oversee PhotoBooths, events, and sessions, and integrated JWT for secure user authentication.</li>
                 <li>Conducted unit testing and integrated Docker to enhance the development environment.</li>
             </ul>
-
-            <!-- Add other experience sections similarly -->
         </div>
+        <div class="subsection">
+            <h3>Backend Developer Intern | ABC Solutions</h3>
+            <p><em>01/07/23 -- 30/09/23 | Internship</em></p>
+            <ul>
+                <li>Developed backend services using Node.js and Express for a large-scale e-commerce platform.</li>
+                <li>Designed and implemented RESTful APIs to handle user authentication, product management, and order processing.</li>
+                <li>Collaborated with frontend developers to integrate APIs with React-based user interfaces.</li>
+                <li>Improved database performance by optimizing MongoDB queries and indexing frequently accessed collections.</li>
+            </ul>
+        </div>
+        <div class="subsection">
+            <h3>Software Engineer Intern | XYZ Tech</h3>
+            <p><em>01/02/23 -- 30/04/23 | Internship</em></p>
+            <ul>
+                <li>Contributed to a team developing a custom CRM solution using PHP (Symfony) and MySQL.</li>
+                <li>Enhanced system security by implementing user authentication mechanisms and data encryption techniques.</li>
+                <li>Conducted code reviews and debugging to ensure the software met the highest standards of quality.</li>
+                <li>Wrote unit and integration tests to verify the correctness of key modules.</li>
+            </ul>
+        </div>
+    </div>
 
-        <div class="section">
-            <div class="section-title">Projects</div>
-            <h2>Real-Time Chat Application Using Steganography</h2>
-            <p><em>2023</em></p>
+    <div class="section">
+        <h2>Projects</h2>
+        <div class="subsection">
+            <h3>Real-Time Chat Application Using Steganography</h3>
+            <p>(2023)</p>
             <ul>
                 <li>Created a real-time chat application using steganography to hide message bits within images.</li>
                 <li>Designed a graphical interface with PYQT5.</li>
                 <li>Programmed a text exchange module with AES encryption for secure messaging.</li>
-                <li>Developed encryption and decryption functions for image-based steganography.</li>
-                <li>Set up secure RSA key exchanges and socket connections for communication.</li>
-                <li>Manipulated images using the Python Imaging Library (PIL).</li>
             </ul>
-
-            <!-- Add other projects similarly -->
         </div>
+        <div class="subsection">
+            <h3>Personal Budget Management Application</h3>
+            <p>(2022)</p>
+            <ul>
+                <li>Developed a budget management app in Java using JavaFX for the user interface.</li>
+                <li>Implemented features for tracking expenses, income, and setting budget goals.</li>
+                <li>Utilized SQLite for persistent data storage and integrated charting libraries for visualizing financial data.</li>
+            </ul>
+        </div>
+        <div class="subsection">
+            <h3>Decentralized Voting System on Ethereum Blockchain</h3>
+            <p>(2021)</p>
+            <ul>
+                <li>Developed a voting system using Solidity for smart contract development.</li>
+                <li>Used Web3.js to interact with the Ethereum blockchain and Metamask for wallet integration.</li>
+                <li>Ensured secure and transparent voting processes with cryptographic techniques.</li>
+            </ul>
+        </div>
+    </div>
 
-        <div class="section">
-            <div class="section-title">Languages</div>
+    <div class="section">
+        <h2>Languages</h2>
+        <div class="languages-list">
             <p><strong>Arabic:</strong> Native</p>
             <p><strong>French:</strong> Fluent</p>
             <p><strong>English:</strong> Intermediate</p>
