@@ -4,128 +4,120 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zaouga Amine - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 0;
-            background-color: #f0f0f0;
-            color: #333;
+            padding: 20px;
+            background-color: #f4f4f4;
         }
         .container {
             max-width: 900px;
             margin: 0 auto;
+            background: #fff;
             padding: 20px;
-            background-color: #fff;
+            border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         h1 {
-            font-size: 28px;
+            font-size: 24px;
             color: #0066cc;
-            text-align: center;
         }
-        .contact-info {
-            text-align: center;
-            font-size: 14px;
-            margin-bottom: 20px;
-        }
-        .section {
-            margin-bottom: 30px;
-        }
-        .section h2 {
-            font-size: 22px;
-            color: #0066cc;
-            border-bottom: 2px solid #0066cc;
-            padding-bottom: 5px;
-        }
-        .section h3 {
-            font-size: 18px;
-            margin-bottom: 5px;
+        h2 {
+            font-size: 20px;
             color: #333;
         }
-        .section p {
+        p, li {
             font-size: 14px;
-            line-height: 1.5;
-            margin-bottom: 10px;
+            color: #555;
         }
-        .skills-list,
-        .projects-list {
-            list-style: none;
-            padding: 0;
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
         }
-        .skills-list li,
-        .projects-list li {
-            margin-bottom: 5px;
+        .contact-info a {
+            color: #0066cc;
+            text-decoration: none;
         }
-        .job-title {
+        .section {
+            margin-bottom: 20px;
+        }
+        .section-title {
             font-weight: bold;
-        }
-        .date-location {
-            font-size: 12px;
-            color: #777;
+            font-size: 18px;
+            color: #0066cc;
             margin-bottom: 10px;
-        }
-        .project-description {
-            font-size: 14px;
-            line-height: 1.5;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Zaouga Amine</h1>
-        <div class="contact-info">
-            <p>Email: <a href="mailto:zaougaamine00@gmail.com">zaougaamine00@gmail.com</a> | Phone: +216 2753 7585</p>
-            <p><a href="https://www.linkedin.com/in/amine-zaouga-575120177/">LinkedIn</a> | <a href="https://github.com/cosovo33">GitHub</a></p>
-            <p>7034, Cap Zebib, Bizerte, Tunisia</p>
+        <div class="header">
+            <h1>Zaouga Amine</h1>
+            <p class="contact-info">
+                <a href="mailto:zaougaamine00@gmail.com">zaougaamine00@gmail.com</a> | +216 2753 7585 | 
+                <a href="https://www.linkedin.com/in/amine-zaouga-575120177/">LinkedIn</a> | 
+                <a href="https://github.com/cosovo33">GitHub</a><br>
+                7034, Cap Zebib, Bizerte, Tunisia
+            </p>
         </div>
 
         <div class="section">
-            <h2>Profile</h2>
+            <div class="section-title">Profile</div>
             <p>I am a Software Engineering graduate from SESAME University (September 2024), with solid experience in JavaScript, Java, Python, and PHP. I have developed robust skills in both frontend and backend development through various projects and internships. I am seeking new opportunities as a MERN developer to contribute to innovative projects with scalable and high-performance solutions.</p>
         </div>
 
         <div class="section">
-            <h2>Education</h2>
-            <h3>SESAME University, Tunisia</h3>
-            <p class="date-location">Master's in Software Engineering | 2021 - 2024</p>
-            <h3>Higher Institute of Computer Science of Mahdia ISIMA, Tunisia</h3>
-            <p class="date-location">Bachelor's degree in Computer Science | 2018 - 2021</p>
+            <div class="section-title">Education</div>
+            <p><strong>SESAME University, Tunisia</strong><br>
+            <em>Master's in Software Engineering</em> &ndash; 2021 -- 2024</p>
+
+            <p><strong>Higher Institute of Computer Science of Mahdia ISIMA, Tunisia</strong><br>
+            <em>Bachelor's degree in Computer Science</em> &ndash; 2018 -- 2021</p>
         </div>
 
         <div class="section">
-            <h2>Skills</h2>
-            <ul class="skills-list">
-                <li><strong>Programming Languages:</strong> JavaScript, Java, Python, PHP</li>
-                <li><strong>Web Development:</strong> MERN (MongoDB, Express, React, Node.js), Django, Symfony, RESTful APIs</li>
-                <li><strong>Technologies and Tools:</strong> Git, Docker, Postman, Truffle, Web3, MySQL, PostgreSQL, Material-UI, Ant Design, Bootstrap</li>
-                <li><strong>Other Skills:</strong> Smart Contract Development, Cryptography, User Interface Design, Project Management, Agile Methodologies</li>
+            <div class="section-title">Skills</div>
+            <p><strong>Programming Languages:</strong> JavaScript, Java, Python, PHP</p>
+            <p><strong>Web Development:</strong> MERN (MongoDB, Express, React, Node.js), Django, Symfony, RESTful APIs</p>
+            <p><strong>Technologies and Tools:</strong> Git, Docker, Postman, Truffle, Web3, MySQL, PostgreSQL, Material-UI, Ant Design, Bootstrap</p>
+            <p><strong>Other Skills:</strong> Smart Contract Development, Cryptography, User Interface Design, Project Management, Agile Methodologies</p>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Professional Experience</div>
+            <h2>MERN Developer | Final Year Project</h2>
+            <p><em>28/02/24 -- 29/06/24 | Web Application for PhotoBooth Management</em></p>
+            <ul>
+                <li>Created a web application to manage PhotoBooths using ReactJS, Express, MongoDB, and Ant Design for UI components.</li>
+                <li>Designed and executed system architecture, incorporating presentation, business logic, and persistence layers, while integrating Redux for effective state management and CRUD operations for users, roles, events, and sessions.</li>
+                <li>Established secure data management practices by implementing role-based and attribute-based access control (RBAC and ABAC) to regulate user access and permissions.</li>
+                <li>Developed dynamic and responsive user interfaces to oversee PhotoBooths, events, and sessions, and integrated JWT for secure user authentication.</li>
+                <li>Conducted unit testing and integrated Docker to enhance the development environment.</li>
             </ul>
+
+            <!-- Add other experience sections similarly -->
         </div>
 
         <div class="section">
-            <h2>Professional Experience</h2>
-            <div>
-                <h3 class="job-title">MERN Developer | Final Year Project</h3>
-                <p class="date-location">28/02/24 - 29/06/24</p>
-                <p class="project-description">Created a web application to manage PhotoBooths using ReactJS, Express, MongoDB, and Ant Design for UI components. Designed and executed system architecture, integrating Redux for state management, and implemented role-based access control for secure data management.</p>
-            </div>
-            <!-- Add other experiences similarly -->
-        </div>
-
-        <div class="section">
-            <h2>Projects</h2>
-            <ul class="projects-list">
-                <li>
-                    <h3 class="job-title">Real-Time Chat Application Using Steganography</h3>
-                    <p class="project-description">Developed a real-time chat application that hides messages within images using steganography techniques. Utilized AES encryption for secure messaging and created a user-friendly graphical interface with PYQT5.</p>
-                </li>
-                <!-- Add other projects similarly -->
+            <div class="section-title">Projects</div>
+            <h2>Real-Time Chat Application Using Steganography</h2>
+            <p><em>2023</em></p>
+            <ul>
+                <li>Created a real-time chat application using steganography to hide message bits within images.</li>
+                <li>Designed a graphical interface with PYQT5.</li>
+                <li>Programmed a text exchange module with AES encryption for secure messaging.</li>
+                <li>Developed encryption and decryption functions for image-based steganography.</li>
+                <li>Set up secure RSA key exchanges and socket connections for communication.</li>
+                <li>Manipulated images using the Python Imaging Library (PIL).</li>
             </ul>
+
+            <!-- Add other projects similarly -->
         </div>
 
         <div class="section">
-            <h2>Languages</h2>
+            <div class="section-title">Languages</div>
             <p><strong>Arabic:</strong> Native</p>
             <p><strong>French:</strong> Fluent</p>
             <p><strong>English:</strong> Intermediate</p>
