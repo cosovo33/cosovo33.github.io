@@ -42,29 +42,25 @@ h2 {
     padding-bottom: 0.5em;
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
+.subsection h3 {
+    margin-top: 0;
 }
 
-ul li {
+.skills-list, .languages-list {
+    display: inline-block;
+    width: 48%;
+    vertical-align: top;
+}
+
+.skills-list p, .languages-list p {
     margin: 0.5em 0;
 }
 
-footer {
-    text-align: center;
-    padding: 1em 0;
-    background-color: #003366;
-    color: white;
-    margin-top: 2em;
-}
-.fade-out {
-    opacity: 0;
-    transform: translateY(20px);
-    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+a {
+    color: #0066cc;
+    text-decoration: none;
 }
 
-.fade-in {
-    opacity: 1;
-    transform: translateY(0);
+a:hover {
+    text-decoration: underline;
 }
